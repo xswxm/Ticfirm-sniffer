@@ -139,8 +139,8 @@ while True:
             threadsAliveNum += 1
 
     if not args.debug:
-        process = (versionNext-versionInitial-threadsAliveNum)*100/count
-        str1 = '>'*(process//2)+' '*((100-process+1)//2)
+        process = (versionNext-versionInitial-threadsAliveNum-1)*100./count
+        str1 = '>'*(int(process)//2)+' '*((100-int(process)+1)//2)
         sys.stdout.write('\r'+str1+'[%s%%]'%(process))
         sys.stdout.flush()
 
