@@ -1,4 +1,3 @@
-Ticfirm-sniffer
 A tool for sniffing ticwatch firmwares.
 
 ### Demo
