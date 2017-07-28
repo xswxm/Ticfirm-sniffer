@@ -145,7 +145,7 @@ while True:
         sys.stdout.flush()
 
     if versionNext > versionLimit and threadsAliveNum == 0:
-        print ''
+        print('')
         print('Version detected: {0}'.format(versionDetected))
         print('All the results have been saved in "output.csv".')
         quit()
